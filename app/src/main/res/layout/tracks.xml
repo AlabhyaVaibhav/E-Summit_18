@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="2">
+        <Button
+            android:onClick="Technology"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Technology\nTrack"
+            tools:ignore="OnClick" />
+        <Button
+            android:onClick="Innovation"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Innovation\nTrack"
+            tools:ignore="OnClick" />
+        <Button
+            android:onClick="Business"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Business\nTrack"
+            tools:ignore="OnClick" />
+        <Button
+            android:onClick="Startup"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Start-up\nPlanet"
+            tools:ignore="OnClick" />
+    </GridLayout>
+
+</LinearLayout>
